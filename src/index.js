@@ -23,7 +23,7 @@ const stories = [
 ];
 
 ReactDOM.render(
-  <App stores={stories} />, 
+  <App stories={stories} />, 
   document.getElementById('root')
 );
 
